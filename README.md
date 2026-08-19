@@ -1,2 +1,7 @@
 # Calculator-in-the-terminal
-This is a terminal command to do fast calculations
+HOW TO USE THE COMMAND!
+
+calc <select an operation> <num> <num>
+
+
+!MORE UPDATES COMING SOON
