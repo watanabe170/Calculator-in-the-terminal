@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     }
 
     if (strcmp(argv[1], "--help") == 0) {
-        printf("Please read README.md for more help");
+        printf("Please read README.md for more help\n");
         return 0;
     }
 
@@ -41,13 +41,16 @@ int main(int argc, char *argv[]) {
     if (choice == 1) {
         printf("%d\n", add(a, b));
         return 0;
-    } else if (choice == 2) {
+    }
+    else if (choice == 2) {
         printf("%d\n", minus(a, b));
         return 0;
-    } else if (choice == 3) {
+    }
+    else if (choice == 3) {
         printf("%d\n", mult(a, b));
         return 0;
-    } else if (choice  == 4) {
+    }
+    else if (choice == 4) {
         if (b == 0) {
             printf("Cant divide by zero!\n");
             return 1;
@@ -55,7 +58,8 @@ int main(int argc, char *argv[]) {
 
         printf("%f\n", dev(a, b));
         return 0;
-    } else {
+    }
+    else {
         printf("Please enter in a choice of 1/2/3/4!\n");
         return 1;
     }
